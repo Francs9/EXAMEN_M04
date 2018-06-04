@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<!--	
+   $Autor:			Franlin Colque S.
+   $identificador: 	isx1535386	
+   $Date: 			2018/06/04 
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="A description of HTML 4.0's META element for metadata." />
+		<meta name="keywords" content="META, meta element, metadata, metainformation, meta data, meta information, keywords, description, refresh, HyperText Markup Language, HTML, HTML4, HTML 4.0, Web Design Group, WDG, &lt;meta&gt; tag, &lt;META&gt; tag"/>
+		<meta name="author" content="Franlin colque" />
+		<title>Elecciones</title>
+	</head>	
+	<body>
+		<h1>Tipos de Partido político:</h1>
+		<form action="cgi-bin/eleccion.py" method="get" enctype="aplication/x-www-form-urlencoded">
+			<div>
+				<ol>
+				<li>PSOE:<input type="hidden"  name="primera opc." value="PSOE" />
+					<ol type="a">
+					<li>Jose Luis Avalos <input type="checkbox" name="Candidato" value="Jose Luis Avalos "/></li>
+					<li>Adriana Lastra<input type="checkbox" name="Candidato" value="Adriana Lastra"/></li>
+					<li>Pedro Sánchez<input type="checkbox" name="Candidato" value="Pedro Sanchez"/></li>
+					<li>Santos Cerdán<input type="checkbox" name="Candidato" value="Santos Cerdan"/></li>
+				</ol></li>
+				<li>PP:<input type="hidden"  name="segunda opc." value="PP" />
+					<ol type="a">
+					<li>Mariano Rajoy<input type="checkbox" name="Candidato" value="Mariano Rajoy"/></li>
+					<li>Fernando Martinez<input type="checkbox" name="Candidato" value="Fernando Martinez"/></li>
+					<li>Rafael Hernando<input type="checkbox" name="Candidato" value="Rafael Hernando"/></li>
+				</ol></li>				
+				<li>PDeCAT:<input type="hidden" name="tercera opc." value="PDeCAT" />
+					<ol type="a">
+					<li>Neus Munté<input type="checkbox" name="Candidato" value="Neus Munte"/></li>
+					<li>Marta Pascal<input type="checkbox" name="Candidato" value="Marta Pascal"/></li>
+					<li>Jose Luis<input type="checkbox" name="Candidato" value="Jose Luis"/></li>
+					<li>Marta salacians<input type="checkbox" name="Candidato" value="Marta salacians"/></li>
+				</ol></li>	
+				<li>PODEMOS<input type="hidden" name="cuarta opc." value="PODEMOS" />
+					<ol type="a">
+					<li>Pablo Iglesias<input type="checkbox" name="Candidato" value="Pablo Iglesias"/></li>
+					<li>Irene Montero<input type="checkbox" name="Candidato" value="Irene Montero"/></li>
+					<li>Iñigo Errejon<input type="checkbox" name="Candidato" value="Iñigo Errejon"/></li>
+					<li>Angela Ballester<input type="checkbox" name="Candidato" value="Angela Ballester"/></li>
+				</ol></li>			
+				<li>C's<input type="hidden" name="quinta opc." value="C's" />
+					<ol type="a" >
+					<li>Sonia Sierra<input type="checkbox" name="Candidato" value="Sonia Sierra"/></li>
+					<li>Laura Vilchez<input type="checkbox" name="Candidato" value="Laura Vilchez"/></li>
+					<li>Albert Rivera<input type="checkbox" name="Candidato" value="Albert Rivera"/></li>
+					<li>Inés Arrimadas<input type="checkbox" name="Candidato" value="Inés Arrimadas"/></li>
+				</ol></li>
+				<li>CUP:<input type="hidden" name="sexta opc." value="CUP" />
+					<ol type="a">
+					<li>Antonio Baños<input type="checkbox" name="Candidato" value="Antonio Banos"/></li>
+					<li>Josep Manuel Busqueta<input type="checkbox" name="Candidato" value="Josep Manuel Busqueta"/></li>
+					<li>Gabriela Serra<input type="checkbox" name="Candidato" value="Gabriela Serra"/></li>
+					<li>Segi Saladié<input type="checkbox" name="Candidato" value="Segi Saladié"/></li>
+				</ol></li>
+				</ol>
+			<div class="button">
+				<button type="submit">submit</button>
+				<input type="reset" value="reset"/>
+			</div>
+			</div>
+		</form>
+	</body>
+</html>
